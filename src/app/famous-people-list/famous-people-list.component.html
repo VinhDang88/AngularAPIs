@@ -1,0 +1,9 @@
+<h1 class="text-center">Famous Computer Folks</h1>
+
+<div class="text-center" *ngFor="let g of famous.complete">
+
+    <a routerLink="/Famouspeople/{{ g.firstName }}">
+        <h1>{{g.firstName}} {{g.lastName}}</h1>
+    </a>
+
+</div>

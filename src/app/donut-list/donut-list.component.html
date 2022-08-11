@@ -1,0 +1,6 @@
+<div class="text-center container card" *ngFor="let p of donut.results">
+    <h3> {{p.name}}</h3>
+
+    <a routerLink="/Donuts/{{p.id}}"> <img src="{{p.photo}}" height="200px" /> </a>
+
+</div>
